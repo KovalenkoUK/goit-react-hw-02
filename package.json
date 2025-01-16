@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "vite": "^6.0.7"
+    }
+}
