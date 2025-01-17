@@ -34,14 +34,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Збір відгуків для Sip Happens Café</h1>
-      <p>Будь ласка, залиште ваш відгук про наш сервіс, обравши одну з опцій нижче.</p>
-      <div>
-        <h2>Feedback Objects:</h2>
-        <p>Good: {feedback.good}</p>
-        <p>Neutral: {feedback.neutral}</p>
-        <p>Bad: {feedback.bad}</p>
-      </div>
+      <h1>Sip Happens Café</h1>
+      <p>Please leave your feedback about our service by selecting one of the options below.</p>
       <Options updateFeedback={updateFeedback} resetFeedback={resetFeedback} totalFeedback={totalFeedback} />
       {totalFeedback > 0 ? (
         <Feedback feedback={feedback} totalFeedback={totalFeedback} positiveFeedbackPercentage={positiveFeedbackPercentage} />
